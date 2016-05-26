@@ -4,10 +4,6 @@ dist = 'dist'
 
 config = ( grunt ) ->
   tasks :
-    atomdoc_md :
-      default:
-        module: '.'
-
     coffee :
       options : { sourceMap : false, bare : true, force : true }
       dist : { expand : true, src : src, dest : dist, ext : '.js' }
@@ -44,7 +40,5 @@ doConfig = ( cfg ) -> ( grunt ) ->
 
   for own name, tasks of opts.register
     grunt.registerTask name, tasks
-
-  require('./lib/grunt-atomdoc-md') grunt
 
 module.exports = doConfig config

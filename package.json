@@ -8,9 +8,10 @@
   "preferGlobal": false,
   "description": "NEEDS DESCRIPTION",
   "dependencies": {
+    "atomdoc-md": "^0.6.0"
   },
   "bundleDependencies": [],
-  "main": "dist/index",
+  "main": "dist/lib/grunt-atomdoc-md",
   "scripts": {
     "prepublish": "grunt",
     "test": "mocha && istanbul report text-summary lcov && rm -rf ./coverage"
@@ -34,5 +35,11 @@
   "author": "Venkat Peri <venkatperi@gmail.com> (http://www.vperi.com/)",
   "license": "MIT",
   "keywords": [
+    "atomdoc",
+    "generate",
+    "ghm",
+    "gruntplugin",
+    "markdown",
+    "readme"
   ]
 }
