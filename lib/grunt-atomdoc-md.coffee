@@ -8,4 +8,4 @@ module.exports = ( grunt ) ->
     done = @async()
     gen(@data)
     .then -> done()
-    .fail done 
+    .fail done

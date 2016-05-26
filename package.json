@@ -6,7 +6,7 @@
     "url": "https://github.com/venkatperi/grunt-atomdoc-md.git"
   },
   "preferGlobal": false,
-  "description": "NEEDS DESCRIPTION",
+  "description": "Grunt plugin: generate markdown from atomdoc",
   "dependencies": {
     "atomdoc-md": "^0.6.0"
   },

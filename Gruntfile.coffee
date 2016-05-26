@@ -45,6 +45,6 @@ doConfig = ( cfg ) -> ( grunt ) ->
   for own name, tasks of opts.register
     grunt.registerTask name, tasks
 
-  require('./lib/grunt-atomdoc-md') grunt
+  require('.') grunt
 
 module.exports = doConfig config
